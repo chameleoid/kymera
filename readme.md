@@ -14,9 +14,7 @@ Minimum Hardware Features:
 
 - 3 haptic feedback vibrators or actuators; required for Haptic Braille
 - 3 hardware buttons
-- Bluetooth
-- Pi Zero W, or better
-
+- Pi Zero W or Banana Pi BPI-M2 Zero
 
 
 ## Split-Cell Haptic Braille
