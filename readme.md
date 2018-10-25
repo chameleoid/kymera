@@ -1,4 +1,4 @@
-# Aboyt the Kymera wearables.
+# About the Kymera wearables
 
 Kymera werables are designed from the ground up to be affordable assistive
 technology devices with a focus on durability, upgradability, and
