@@ -6,29 +6,52 @@ user-extensibility.  To this end the Kymera wearables are developed as
 open-source hardware, with the idea that the source provided can be used to
 build an ecosystem of extensible assistive technology wearables.
 
-These werables use [Braille](#split-cell-haptic-braille) to provide users
-constant access to information without the need to view a screen.
+These werables use [Braille](#haptic-braille) to provide users constant access
+to information without the need to view a screen.
 
 
 Minimum Hardware Features:
-
 - 3 haptic feedback vibrators or actuators; required for Haptic Braille
 - 3 hardware buttons
-- Pi Zero W or Banana Pi BPI-M2 Zero
+
+Preferred Features:
+- 8 haptic feedback vibrators or actuators
+- 3 hardware buttons
+- For TTS support, an SBC with a minimum of 256MB of RAM is recommended
+
+Supported SBCs:
+_TBD_
+<!--
+- OMEGA2+
+- Pi Zero W
+- Banana Pi BPI-M2 Zero
+-->
 
 
-## Split-Cell Haptic Braille
+## Haptic Braille
+Haptic Braille comes in three forms; [Full-Cell](#full-cell-haptic-braille),
+[Split-Cell VI](#varying-intensity), and [Split-Cell VC](#varying-cadence).
+
+### Full-Cell Haptic Braille
+Full-cell Haptic Braille pulses each cell to an array of haptic feedback
+vibrators or actuators.
+
+### Split-Cell Haptic Braille
 Split-cell Haptic Braille cuts each cell into two sections (left/right halves),
 reducing the minimum number of vibration sources to three.  Cells are then
-rendered using one of two methods: varying strength, or varying cadence.
+rendered using one of two methods: varying intensity, or varying cadence.
 
-_Varying intensity_ - The first half of a cell uses light pulses to mark empty
+#### Varying Intensity
+The first half of a cell uses light pulses to mark empty
 dots, and regular pulses to mark filled dots.  The second half of a cell uses
 regular intensity pulses to mark empty dots, and heavy pulses to mark filled
 dots.
 
-_Varying cadence_ - Like the first method, light pulses mark empty dots, and
+#### Varying Cadence
+Like the first method, light pulses mark empty dots, and
 stronger pulses mark filled dots.  The pause duration between the first and
 second half of the cells are timed at 2/3 the pause duration between cells.
 Ex: If the pause between cells is set to 300ms, the pause between cell halves
 would then be 200ms.
+
+
