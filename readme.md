@@ -6,8 +6,8 @@ user-extensibility.  To this end the Kymera wearables are developed as
 open-source hardware, with the idea that the source provided can be used to
 build an ecosystem of extensible assistive technology wearables.
 
-These werables use [Braille](#haptic-braille) to provide users constant access
-to information without the need to view a screen.
+These werables use [Haptic Braille](#haptic-braille) to provide users constant
+access to information without the need to view a screen.
 
 
 Minimum Hardware Features:
@@ -53,5 +53,3 @@ stronger pulses mark filled dots.  The pause duration between the first and
 second half of the cells are timed at 2/3 the pause duration between cells.
 Ex: If the pause between cells is set to 300ms, the pause between cell halves
 would then be 200ms.
-
-
