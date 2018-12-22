@@ -9,6 +9,19 @@ build an ecosystem of extensible assistive technology wearables.
 These werables use [Haptic Braille](#haptic-braille) to provide users constant
 access to information without the need to view a screen.
 
+This is the main repository for the Kymera wearables, which functions as a
+starting point for newcomers and central area for issue tracking.  For source
+code, or to place a pull request, please check out one of the related
+repositories:
+
+- Core libraries [@kymera/core][]
+- Simulator app [@kymera/simulator][]
+
+[@kymera/core]: https://gitlab.com/chameleoid/kymera/core
+[@kymera/simulator]: https://gitlab.com/chameleoid/kymera/simulator
+
+
+## Development Boards
 
 Minimum Hardware Features:
 - 3 haptic feedback vibrators or actuators; required for Haptic Braille
