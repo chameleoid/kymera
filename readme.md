@@ -14,7 +14,7 @@ starting point for newcomers and central area for issue tracking.  For source
 code, or to place a pull request, please check out one of the related
 repositories:
 
-- Core libraries [@kymera/core][]
+- Core library [@kymera/core][]
 - Simulator app [@kymera/simulator][]
 
 [@kymera/core]: https://gitlab.com/chameleoid/kymera/core
@@ -42,6 +42,11 @@ _TBD_
 
 
 ## Haptic Braille
+Haptic Braille is an inexpensive Braille character interface that utilizes a
+series of haptic points to form a Braille cell.  This interface can be used to
+receive textual information without needing to look at a screen or listen for
+audible cues, and can be worn anywhere with sufficient nerve density.
+
 Haptic Braille comes in three forms; [Full-Cell](#full-cell-haptic-braille),
 [Split-Cell VI](#varying-intensity), and [Split-Cell VC](#varying-cadence).
 
